@@ -1,4 +1,4 @@
-/*ËÑË÷¿ò*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 * {
 
     box-sizing:border-box;
@@ -84,13 +84,13 @@ button {
 
     content:"Search";
 
-    font-size:13px;
+    font-size:0.13rem;
 
     color:#FFFEFE;
 
 }
 
-/*ÖÐ¼äÎÄ×ÖÐ§¹û*/
+/*ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½*/
 .link {
   outline: none;
   text-decoration: none;
@@ -102,7 +102,7 @@ button {
 
 
 .link--wel {
-  text-transform: uppercase;/*´óÐ´*/
+  text-transform: uppercase;/*ï¿½ï¿½Ð´*/
   font-weight: 900;
   overflow: hidden;
   line-height: 1;

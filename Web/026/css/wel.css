@@ -95,7 +95,7 @@ button {
   outline: none;
   text-decoration: none;
   position: relative;
-  font-size: 0.08em;
+  font-size: 2vw;
   line-height:1;
   display: inline-block;
 }

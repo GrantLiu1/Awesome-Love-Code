@@ -17,8 +17,9 @@
 			background-position: center;
 			background-attachment: fixed;
 			width: 100%;
-			height: 100vh;
-		}	
+			height: 100%;
+			margin-left: 0;
+		}
 
 
 		ul{
@@ -85,8 +86,8 @@
 
 	    </form>
 
-	
-</div>
+
+	</div>
 
 
 	<span style="margin-left: 20%">
@@ -135,20 +136,20 @@
 </body>
 
 <script>
-	var docEl = document.documentElement;
-	function setRemUnit () {
-		var rem = docEl.clientWidth / 19.2; // 可根据不同电脑分辨率进行手动修改（如1920*1080 为19.2
-		docEl.style.fontSize = rem + 'px'
-	}
-
-	setRemUnit()
-
-	window.addEventListener('resize', setRemUnit)
-	window.addEventListener('pageshow', function (e) {
-		if (e.persisted) {
-			setRemUnit()
-		}
-	})
+	// var docEl = document.documentElement;
+	// function setRemUnit () {
+	// 	var rem = docEl.clientWidth / 19.2; // 可根据不同电脑分辨率进行手动修改（如1920*1080 为19.2
+	// 	docEl.style.fontSize = rem + 'px'
+	// }
+	//
+	// setRemUnit()
+	//
+	// window.addEventListener('resize', setRemUnit)
+	// window.addEventListener('pageshow', function (e) {
+	// 	if (e.persisted) {
+	// 		setRemUnit()
+	// 	}
+	// })
 
 </script>
 </html>

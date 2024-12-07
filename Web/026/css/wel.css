@@ -6,9 +6,8 @@
 }
 
 div.search {
-  float: right;
-
-    padding:0 0;
+    margin-right: 0.5rem;
+    float: right;
 
 }
 
@@ -62,7 +61,7 @@ button {
 
     top:0;
 
-    right:0;
+
 
 }
 

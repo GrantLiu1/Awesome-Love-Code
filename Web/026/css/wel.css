@@ -93,7 +93,7 @@ button {
     outline: none;
     text-decoration: none;
     position: fixed;
-    font-size: 5vw;
+    font-size: 10vw;
     line-height: 1;
     display: inline-block;
 }
